@@ -19,24 +19,35 @@ Firebase setup
 2. Log in with your google account
 3. On the firebase console click on Add project
 4. Enter your project name and edit project id if required
-5.Select I accept & I agree checkboxes
+5. Select I accept & I agree checkboxes
 6. On the project-overview-Firebase console -->
+
     a. Select  ​( </> )​ app to get started.
     Terminal command:
+
         1. To install firebase-tools --> sudo npm install -g firebase-tools
+         
         2. If error occurs update npm uding command --> sudo npm update -g
-        3. Then run --> firebase login , 
-        firebase init(hosting and data storage) and firebase deploy
+
+        3. Then run --> firebase login , firebase init(hosting and data storage) and firebase deploy
+   
     b.COPY the given script and add it to your ​project’s javascript file
+    
     c. On your firebase homepage dashboard, click on ​Authentication​ underDevelop category dropdown menu.
+    
     d. Now click on google and toggle on enable switch button.
+    
     e.Select project support email and click on save
+    
     f. For facebook autentication:
       On the Facebook for Developers site, get the App ID and an App Secret for your app.
+
 Enable Facebook Login:
 
 1.In the Firebase console, open the Auth section.
+
 2.On the Sign in method tab, enable the Facebook sign-in method and specify the App ID and App Secret you got from Facebook.
+
 3.Then, make sure your OAuth redirect URI (e.g. my-app-12345.firebaseapp.com/__/auth/handler) is listed as one of your OAuth redirect URIs in your Facebook app's settings page on the Facebook for Developers site in the Product Settings > Facebook Login config.You will find input field Valid OAuth redirect URIs where you need to copy the OAuth Redirect URI from Firebase.
 
 
