@@ -1,13 +1,13 @@
 // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
-    apiKey: "AIzaSyB3WBIo18yyeZRx6PMb0aEDR4H7zfoaGcQ",
-    authDomain: "blogging-46b62.firebaseapp.com",
-    projectId: "blogging-46b62",
-    storageBucket: "blogging-46b62.appspot.com",
-    messagingSenderId: "1018595362558",
-    appId: "1:1018595362558:web:0ed9bf82ff4cc2052107af",
-    measurementId: "G-0WX2NK5SF1"
+    apiKey: "************************",
+    authDomain: "**********************",
+    projectId: "*****************",
+    storageBucket: "********************",
+    messagingSenderId: "***************",
+    appId: "*****************",
+    measurementId: "************"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
@@ -88,7 +88,7 @@ function facebookSignin() {
 }
  window.fbAsyncInit = function() {
       FB.init ({
-         appId      : '1074782273014545',
+         appId      : '***************',
          xfbml      : true,
          version    : 'v2.6'
       });
